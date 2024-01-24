@@ -77,35 +77,33 @@
         <main class="container mx-auto">
             <!-- banner start here -->
             <div class="max-w-[1170px] relative mx-auto mb-8 lg:mb-24">
-                <div class="carousel max-w-[1170px] mx-auto">
-                    <div id="slide1"
-                        class="carousel-item relative w-full rounded-2xl bg-[url(./Images/1.png)] h-[550px] mx-auto bg-center bg-cover">
+                <div class="carousel h-[550px] w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                        <img src="./Images/1.png" class="w-full rounded-2xl object-cover items-center" />
+                        <div class="absolute space-x-2 left-[43%] bottom-10 lg:left-10 transform -translate-y-1/2">
+                            <a href="#slide4" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative  w-full">
+                        <img src="./Images/bn2.jpg" class="w-full rounded-2xl object-cover items-center" />
+                        <div class="absolute space-x-2 left-[43%] bottom-10 lg:left-10 transform -translate-y-1/2">
+                            <a href="#slide1" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide3" class="btn btn-circle bg-black text-white">❯</a>
+                        </div>
+                    </div>
+                    <div id="slide3" class="carousel-item  relative w-full">
+                        <img src="./Images/bn3.jpg" class="w-full rounded-2xl object-cover items-center" />
                         <div class="absolute space-x-2 left-[43%] bottom-10 lg:left-10 transform -translate-y-1/2">
                             <a href="#slide2" class="btn btn-circle bg-black text-white">❮</a>
-                            <a href="#slide2" class="btn btn-circle  bg-black text-white">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide2"
-                        class="carousel-item relative w-full rounded-2xl bg-[url(./Images/1.png)] h-[550px] mx-auto bg-center bg-cover">
-                        <div class="absolute space-x-2 left-[43%] bottom-10 lg:left-10 transform -translate-y-1/2">
-                            <a href="#slide1" class="btn btn-circle  bg-black text-white">❮</a>
-                            <a href="#slide3" class="btn btn-circle  bg-black text-white">❯</a>
-                        </div>
-                    </div>
-                    <div id="slide3" class="carousel-item relative w-full">
-                        <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg"
-                            class="w-full" />
-                        <div class="absolute space-x-2 left-[43%] bottom-10 lg:left-10 transform -translate-y-1/2">
-                            <a href="#slide2" class="btn btn-circle  bg-black text-white">❮</a>
-                            <a href="#slide4" class="btn btn-circle  bg-black text-white">❯</a>
+                            <a href="#slide4" class="btn btn-circle bg-black text-white">❯</a>
                         </div>
                     </div>
                     <div id="slide4" class="carousel-item relative w-full">
-                        <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
-                            class="w-full" />
+                        <img src="./Images/bn4.jpg" class="w-full rounded-2xl object-cover items-center" />
                         <div class="absolute space-x-2 left-[43%] bottom-10 lg:left-10 transform -translate-y-1/2">
-                            <a href="#slide3" class="btn btn-circle  bg-black text-white">❮</a>
-                            <a href="#slide1" class="btn btn-circle  bg-black text-white">❯</a>
+                            <a href="#slide3" class="btn btn-circle bg-black text-white">❮</a>
+                            <a href="#slide1" class="btn btn-circle bg-black text-white">❯</a>
                         </div>
                     </div>
                 </div>
@@ -202,7 +200,7 @@
                     <div class="flex flex-col lg:flex-row justify-between gap-6">
                         <div
                             class="lg:w-1/2 flex justify-start shadow-xl  rounded-2xl image-full bg-cover bg-center bg-[linear-gradient(180deg,rgba(19,19,24,0.50)0%,rgba(19,19,24,0.50)100%),url('./Images/2.png')]">
-                            <div class="flex flex-col space-y-6 pt-24 px-8 pb-12 text-white text-start">
+                            <div class="flex flex-col space-y-6 p-6 lg:pt-24 lg:px-10 lg:pb-12 text-white text-start">
                                 <h2 class="font-extrabold text-[1.8rem]">Junior Program</h2>
                                 <p class="text-base font-medium">A junior program signifies more than just a structured
                                     initiative for young participants;
@@ -211,37 +209,38 @@
                                     laid.
                                 </p>
                                 <div class="card-actions justify-start">
-                                    <button class="btn bg-button-color text-white border-none">Register Now!</button>
+                                    <button class="btn bg-button-color px-6 text-white border-none">Register
+                                        Now!</button>
                                 </div>
                             </div>
                         </div>
                         <div
                             class="lg:w-1/2 flex justify-start shadow-xl  rounded-2xl image-full bg-cover bg-center bg-[linear-gradient(180deg,rgba(19,19,24,0.50)0%,rgba(19,19,24,0.50)100%),url('./Images/3.png')]">
-                            <div class="flex flex-col space-y-6 pt-24 px-8 pb-12 text-white text-start">
+                            <div class="flex flex-col space-y-6 p-6 lg:pt-24 lg:px-10 lg:pb-12 text-white text-start">
                                 <h2 class=" font-extrabold text-[1.8rem]">Teenager Program</h2>
                                 <p class="text-base font-medium">Embarking on the journey of adolescence is a pivotal
                                     and
                                     transformative phase of life.Our Teenager Program is designed to empower and guide
-                                    teenagers through this period, fostering personal growth, skill
-                                    development, and a sense of community
+                                    teenagers through this period.
                                 </p>
                                 <div class="card-actions justify-start">
-                                    <button class="btn bg-button-color text-white border-none">Register Now!</button>
+                                    <button class="btn bg-button-color px-6 text-white border-none">Register
+                                        Now!</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div
                         class="lg:w-full   flex justify-start shadow-xl  rounded-2xl image-full bg-cover bg-center bg-[linear-gradient(180deg,rgba(19,19,24,0.50)0%,rgba(19,19,24,0.50)100%),url('./Images/4.png')]">
-                        <div class="flex flex-col space-y-6 pt-52 px-8 pb-12 text-white text-start">
+                        <div class="flex flex-col space-y-6 p-6 lg:pt-52 lg:px-8 lg:pb-12 text-white text-start">
                             <h2 class="justify-start font-extrabold text-[1.8rem]">Professional Program</h2>
-                            <p class="text-base font-medium max-w-[520px]">The Professional Program in Hockeys is a
+                            <p class="text-base font-medium lg:max-w-[520px]">The Professional Program in Hockeys is a
                                 comprehensive
                                 initiative designed to elevate the skills, knowledge, and
                                 professionalism of individuals aspiring to excel in the dynamic world of Hockeys.
                             </p>
                             <div class="card-actions justify-start">
-                                <button class="btn bg-button-color text-white border-none">Register Now!</button>
+                                <button class="btn bg-button-color px-6 text-white border-none">Register Now!</button>
                             </div>
                         </div>
                     </div>
@@ -266,8 +265,9 @@
                         <div
                             class="flex flex-col lg:flex-row gap-6 lg:gap-5 p-6 border rounded-2xl mx-auto sm:max-w-[375px] lg:max-w-[573px]">
                             <div class="flex items-center justify-center text-center object-cover">
-                                <img class="mx-auto hidden lg:block items-center" src="Images/5.png" alt="">
-                                <img class="mx-auto lg:hidden items-center" src="Images/Rectangle 4.png" alt="">
+                                <img class="mx-auto hidden lg:block w-full items-center" src="./Images/5.png" alt="">
+                                <img class="mx-auto lg:hidden w-full items-center" src="./Images/Rectangle 4.png"
+                                    alt="">
                             </div>
                             <div class="text-start">
                                 <div class="flex gap-4 items-center">
@@ -302,8 +302,9 @@
                         <div
                             class="flex flex-col lg:flex-row gap-6 lg:gap-5 p-6 border rounded-2xl mx-auto sm:max-w-[375px] lg:max-w-[573px]">
                             <div class="flex items-center justify-center text-center object-cover">
-                                <img class="mx-auto hidden lg:block items-center" src="Images/6.png" alt="">
-                                <img class="mx-auto lg:hidden items-center" src="Images/Rectangle 5.png" alt="">
+                                <img class="mx-auto hidden lg:block w-full items-center" src="./Images/6.png" alt="">
+                                <img class="mx-auto lg:hidden w-full items-center" src="./Images/Rectangle 5.png"
+                                    alt="">
                             </div>
                             <div class="text-start">
                                 <div class="flex gap-4 items-center">
@@ -341,8 +342,9 @@
                         <div
                             class="flex flex-col lg:flex-row gap-6 lg:gap-5 p-6 border rounded-2xl mx-auto sm:max-w-[375px] lg:max-w-[573px]">
                             <div class="flex items-center justify-center text-center object-cover">
-                                <img class="mx-auto hidden lg:block items-center" src="Images/7.png" alt="">
-                                <img class="mx-auto lg:hidden items-center" src="Images/Rectangle 6.png" alt="">
+                                <img class="mx-auto hidden lg:block w-full items-center" src="./Images/7.png" alt="">
+                                <img class="mx-auto lg:hidden w-full items-center" src="./Images/Rectangle 6.png"
+                                    alt="">
                             </div>
                             <div class="text-start">
                                 <div class="flex gap-4 items-center">
@@ -377,8 +379,9 @@
                         <div
                             class="flex flex-col lg:flex-row gap-6 lg:gap-5 p-6 border rounded-2xl mx-auto sm:max-w-[375px] lg:max-w-[573px]">
                             <div class="flex items-center justify-center text-center object-cover">
-                                <img class="mx-auto hidden lg:block items-center" src="Images/8.png" alt="">
-                                <img class="mx-auto lg:hidden items-center" src="Images/Rectangle 7.png" alt="">
+                                <img class="mx-auto hidden lg:block w-full items-center" src="./Images/8.png" alt="">
+                                <img class="mx-auto lg:hidden w-full items-center" src="./Images/Rectangle 7.png"
+                                    alt="">
                             </div>
                             <div class="text-start">
                                 <div class="flex gap-4 items-center">
@@ -416,8 +419,9 @@
                         <div
                             class="flex flex-col lg:flex-row gap-6 lg:gap-5 p-6 border rounded-2xl mx-auto sm:max-w-[375px] lg:max-w-[573px]">
                             <div class="flex items-center justify-center text-center object-cover">
-                                <img class="mx-auto hidden lg:block items-center" src="Images/9.png" alt="">
-                                <img class="mx-auto lg:hidden items-center" src="Images/Rectangle 8.png" alt="">
+                                <img class="mx-auto hidden lg:block w-full items-center" src="./Images/9.png" alt="">
+                                <img class="mx-auto lg:hidden w-full items-center" src="./Images/Rectangle 8.png"
+                                    alt="">
                             </div>
                             <div class="text-start">
                                 <div class="flex gap-4 items-center">
@@ -452,8 +456,9 @@
                         <div
                             class="flex flex-col lg:flex-row gap-6 lg:gap-5 p-6 border rounded-2xl mx-auto sm:max-w-[375px] lg:max-w-[573px]">
                             <div class="flex items-center justify-center text-center object-cover">
-                                <img class="mx-auto hidden lg:block items-center" src="Images/10.png" alt="">
-                                <img class="mx-auto lg:hidden items-center" src="Images/Rectangle 9.png" alt="">
+                                <img class="mx-auto hidden lg:block w-full items-center" src="./Images/10.png" alt="">
+                                <img class="mx-auto lg:hidden w-full items-center" src="./Images/Rectangle 9.png"
+                                    alt="">
                             </div>
                             <div class="text-start">
                                 <div class="flex gap-4 items-center">
@@ -502,7 +507,9 @@
                 <div class="mt-8 space-y-6 max-w-[1170px] mx-auto">
                     <div class="hero border rounded-2xl border-bg-[#1313181A]">
                         <div class="hero-content gap-6 flex-col lg:flex-row">
-                            <img src="Images/11.png" class="lg:max-w-sm w-2/3 rounded-2xl shadow-2xl" />
+                            <img src="./Images/11.png" class="lg:max-w-sm w-2/3 rounded-2xl mx-auto hidden lg:block" />
+                            <img class="mx-auto lg:hidden w-full rounded-2xl items-center"
+                                src="./Images/Rectangle 14.png" alt="">
                             <!-- accordion starts here -->
                             <div class="w-full text-start">
                                 <div class="collapse collapse-plus">
